@@ -1,0 +1,9 @@
+CONT_NAME=mongo_service
+docker ps
+
+CID=`docker ps|grep $CONT_NAME|awk '{ print $1 }'`
+
+if [ ! -z "$CID" ]; then
+	docker exec -it $CID mongo freelancer -u freelancerappuser -p Em2ytkCYhwpD7ckEB8GD
+fi
+

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd ~/Projects/BrokerMeApp/app/src
+
+MONGODB_SERVICE=mongo-container MONGODB_APPLICATION_DATABASE=freelancer MONGODB_APPLICATION_USER=freelancerappuser MONGODB_APPLICATION_PASS=Em2ytkCYhwpD7ckEB8GD nodemon mailer.js

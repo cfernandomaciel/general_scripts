@@ -1,0 +1,2 @@
+#ssh -i ~/.ssh/id_rsa.pub cfernandomaciel@10.0.3.80
+ssh cfernandomaciel@10.0.3.80
