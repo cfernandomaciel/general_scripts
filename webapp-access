@@ -1,4 +1,4 @@
-CONT_NAME=brokerme_service
+CONT_NAME=brokerme_webapp_service
 docker ps
 
 CID=`docker ps|grep $CONT_NAME|awk '{ print $1 }'`
